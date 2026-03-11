@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cubic Solver</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cubic Solver</h1>
+
+    <form id="cubic-form">
+      <input type="number" id="a" placeholder="a" required />
+      <input type="number" id="b" placeholder="b" required />
+      <input type="number" id="c" placeholder="c" required />
+      <input type="number" id="d" placeholder="d" required />
+      <button type="submit">Solve Cubic</button>
+    </form>
+
+    <div id="formula"></div>
+    <div id="result-table"></div>
+    <canvas id="graph" width="600" height="400"></canvas>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
