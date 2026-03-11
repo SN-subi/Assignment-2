@@ -1,6 +1,6 @@
 import '../style.css'
 
-const resultTable = document.getElementById('result') as HTMLDivElement
+const resultTable = document.getElementById('results') as HTMLDivElement
 const valueA = document.getElementById('a') as HTMLInputElement
 const valueB = document.getElementById('b') as HTMLInputElement
 const valueC = document.getElementById('c') as HTMLInputElement
